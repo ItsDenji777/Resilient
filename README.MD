@@ -1,6 +1,5 @@
 <div align="center">
 
-<!-- Replace with your logo -->
 <img src="WhiteHeader.png" alt="Resilient" width="160" />
 
 # Resilient
@@ -84,15 +83,13 @@ Authentication uses PHP sessions with hashed passwords (`password_hash` / `passw
 
 ## Screenshots
 
-<!-- Add screenshots here -->
-
 | Storefront | Product Page |
 | ---------- | ------------ |
-| _placeholder_ | _placeholder_ |
+| <img src="showcases/Storefront.png" alt="Storefront" width="400"> | <img src="showcases/ProductPage.png" alt="Product Page" width="400"> |
 
 | Admin Orders | Order Tracking |
 | ------------ | -------------- |
-| _placeholder_ | _placeholder_ |
+| <img src="showcases/AdminOrders.png" alt="Admin Orders" width="400"> | <img src="showcases/OrderTracking.png" alt="Order Tracking" width="400"> |
 
 ---
 
@@ -109,6 +106,6 @@ The source code is closed. This repository exists as a public reference for the 
 Designed and developed by **Kasra Seydi**.
 
 - Website: [kasra-seydi.ir](https://kasra-seydi.ir)
-- Contact: [email address]
+- Contact: contactme@kasra-seydi.ir
 
 For inquiries about the project or collaboration opportunities, please reach out through the website above.
