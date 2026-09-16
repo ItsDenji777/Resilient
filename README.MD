@@ -16,7 +16,7 @@
 
 Resilient is a full-stack e-commerce platform built for an Iranian clothing brand. It provides a complete shopping experience in Persian, from product discovery through order fulfillment, alongside a dedicated administrative panel for managing the store.
 
-The platform was built from scratch without a framework, using vanilla PHP and MySQL. Every layer — routing, authentication, session-based cart, order lifecycle, notifications, image handling, and admin tooling — was implemented directly to keep the codebase lightweight, portable, and easy to deploy on low-cost shared hosting.
+The platform was built from scratch without a framework, using vanilla PHP and MySQL. Every layer (routing, authentication, session-based cart, order lifecycle, notifications, image handling, and admin tooling) was implemented directly to keep the codebase lightweight, portable, and easy to deploy on low-cost shared hosting.
 
 ---
 
@@ -85,13 +85,13 @@ The platform was built from scratch without a framework, using vanilla PHP and M
 
 The application follows a straightforward, framework-free structure:
 
-- **`config.php`** — global configuration and auto-detected base URL
-- **`db.php`** — PDO database connection
-- **`functions.php`** — shared helpers (auth, cart, pricing, uploads, notifications, cleanup)
-- **`header.php` / `footer.php`** — shared layout, metadata, and client scripts
-- **`admin/`** — isolated admin panel, protected by role checks
-- **`uploads/`** — user-uploaded images (product galleries and payment receipts)
-- **`cleanup.php`** — on-demand and automatic cleanup of unused files
+- **`config.php`** : global configuration and auto-detected base URL
+- **`db.php`** : PDO database connection
+- **`functions.php`** : shared helpers (auth, cart, pricing, uploads, notifications, cleanup)
+- **`header.php` / `footer.php`** : shared layout, metadata, and client scripts
+- **`admin/`** : isolated admin panel, protected by role checks
+- **`uploads/`** : user-uploaded images (product galleries and payment receipts)
+- **`cleanup.php`** : on-demand and automatic cleanup of unused files
 
 Authentication uses PHP sessions with hashed passwords (`password_hash` / `password_verify`). All database queries use prepared statements. Admin routes verify the authenticated user's role before rendering.
 
